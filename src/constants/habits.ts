@@ -36,7 +36,7 @@ export const HABITS: HabitDefinition[] = [
     shortLabel: "Physics",
     frequency: "weekday",
     isAsterisk: false,
-    description: "2 hrs: 1hr textbooks/notes + 1hr research/papers/Qiskit (30 min on travel days)",
+    description: "1 hr: 30min textbooks/notes + 30min research/papers/Qiskit (30 min total on travel days)",
   },
   {
     id: "run-bike",
@@ -96,7 +96,7 @@ export const HABITS: HabitDefinition[] = [
     shortLabel: "Textbook",
     frequency: "weekday",
     isAsterisk: false,
-    description: "1 hr of textbook reading or lecture notes",
+    description: "30 min of textbook reading or lecture notes",
   },
   {
     id: "physics-research",
@@ -104,7 +104,7 @@ export const HABITS: HabitDefinition[] = [
     shortLabel: "Research",
     frequency: "weekday",
     isAsterisk: false,
-    description: "1 hr of research papers or Qiskit work",
+    description: "30 min of research papers or Qiskit work",
   },
   {
     id: "misc-workout",

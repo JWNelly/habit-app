@@ -104,7 +104,7 @@ export function TodayView({
                 <div className="px-4 py-3 flex items-center justify-between">
                   <div>
                     <p className="text-sm font-medium text-gray-900">Physics Study</p>
-                    <p className="text-xs text-gray-500 mt-0.5">2 hrs — check off each block</p>
+                    <p className="text-xs text-gray-500 mt-0.5">1 hr — check off each block</p>
                   </div>
                   {textbookDone && researchDone && <span className="text-base">✅</span>}
                 </div>
@@ -117,7 +117,7 @@ export function TodayView({
                   </div>
                   <div>
                     <p className={`text-sm font-medium ${textbookDone ? "text-gray-400 line-through" : "text-gray-900"}`}>Textbooks / Lecture Notes</p>
-                    <p className="text-xs text-gray-500">1 hr</p>
+                    <p className="text-xs text-gray-500">30 min</p>
                   </div>
                 </button>
                 <button
@@ -129,7 +129,7 @@ export function TodayView({
                   </div>
                   <div>
                     <p className={`text-sm font-medium ${researchDone ? "text-gray-400 line-through" : "text-gray-900"}`}>Research / Papers / Qiskit</p>
-                    <p className="text-xs text-gray-500">1 hr</p>
+                    <p className="text-xs text-gray-500">30 min</p>
                   </div>
                 </button>
               </div>
